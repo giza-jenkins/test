@@ -39,7 +39,8 @@
   <builders>
     <hudson.tasks.Shell>
       <command>ls -al
-cat README.md</command>
+cat README.md
+echo &quot;success&quot;</command>
     </hudson.tasks.Shell>
   </builders>
   <publishers/>
