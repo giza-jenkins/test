@@ -1,0 +1,122 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<hudson>
+  <disabledAdministrativeMonitors/>
+  <version>2.89.3</version>
+  <numExecutors>2</numExecutors>
+  <mode>NORMAL</mode>
+  <useSecurity>true</useSecurity>
+  <authorizationStrategy class="hudson.security.GlobalMatrixAuthorizationStrategy">
+    <permission>com.cloudbees.plugins.credentials.CredentialsProvider.Create:jcain</permission>
+    <permission>com.cloudbees.plugins.credentials.CredentialsProvider.Create:stevenh</permission>
+    <permission>com.cloudbees.plugins.credentials.CredentialsProvider.Delete:jcain</permission>
+    <permission>com.cloudbees.plugins.credentials.CredentialsProvider.Delete:stevenh</permission>
+    <permission>com.cloudbees.plugins.credentials.CredentialsProvider.ManageDomains:jcain</permission>
+    <permission>com.cloudbees.plugins.credentials.CredentialsProvider.ManageDomains:stevenh</permission>
+    <permission>com.cloudbees.plugins.credentials.CredentialsProvider.Update:jcain</permission>
+    <permission>com.cloudbees.plugins.credentials.CredentialsProvider.Update:stevenh</permission>
+    <permission>com.cloudbees.plugins.credentials.CredentialsProvider.View:jcain</permission>
+    <permission>com.cloudbees.plugins.credentials.CredentialsProvider.View:stevenh</permission>
+    <permission>com.sonyericsson.hudson.plugins.gerrit.trigger.PluginImpl.ManualTrigger:jcain</permission>
+    <permission>com.sonyericsson.hudson.plugins.gerrit.trigger.PluginImpl.ManualTrigger:stevenh</permission>
+    <permission>com.sonyericsson.hudson.plugins.gerrit.trigger.PluginImpl.Retrigger:jcain</permission>
+    <permission>com.sonyericsson.hudson.plugins.gerrit.trigger.PluginImpl.Retrigger:stevenh</permission>
+    <permission>hudson.model.Computer.Build:jcain</permission>
+    <permission>hudson.model.Computer.Build:stevenh</permission>
+    <permission>hudson.model.Computer.Configure:jcain</permission>
+    <permission>hudson.model.Computer.Configure:stevenh</permission>
+    <permission>hudson.model.Computer.Connect:jcain</permission>
+    <permission>hudson.model.Computer.Connect:stevenh</permission>
+    <permission>hudson.model.Computer.Create:jcain</permission>
+    <permission>hudson.model.Computer.Create:stevenh</permission>
+    <permission>hudson.model.Computer.Delete:jcain</permission>
+    <permission>hudson.model.Computer.Delete:stevenh</permission>
+    <permission>hudson.model.Computer.Disconnect:jcain</permission>
+    <permission>hudson.model.Computer.Disconnect:stevenh</permission>
+    <permission>hudson.model.Hudson.Administer:jcain</permission>
+    <permission>hudson.model.Hudson.Administer:stevenh</permission>
+    <permission>hudson.model.Hudson.Read:jcain</permission>
+    <permission>hudson.model.Hudson.Read:stevenh</permission>
+    <permission>hudson.model.Item.Build:jcain</permission>
+    <permission>hudson.model.Item.Build:stevenh</permission>
+    <permission>hudson.model.Item.Cancel:jcain</permission>
+    <permission>hudson.model.Item.Cancel:stevenh</permission>
+    <permission>hudson.model.Item.Configure:jcain</permission>
+    <permission>hudson.model.Item.Configure:stevenh</permission>
+    <permission>hudson.model.Item.Create:jcain</permission>
+    <permission>hudson.model.Item.Create:stevenh</permission>
+    <permission>hudson.model.Item.Delete:jcain</permission>
+    <permission>hudson.model.Item.Delete:stevenh</permission>
+    <permission>hudson.model.Item.Discover:jcain</permission>
+    <permission>hudson.model.Item.Discover:stevenh</permission>
+    <permission>hudson.model.Item.Move:jcain</permission>
+    <permission>hudson.model.Item.Move:stevenh</permission>
+    <permission>hudson.model.Item.Read:jcain</permission>
+    <permission>hudson.model.Item.Read:stevenh</permission>
+    <permission>hudson.model.Item.Workspace:jcain</permission>
+    <permission>hudson.model.Item.Workspace:stevenh</permission>
+    <permission>hudson.model.Run.Delete:jcain</permission>
+    <permission>hudson.model.Run.Delete:stevenh</permission>
+    <permission>hudson.model.Run.Replay:jcain</permission>
+    <permission>hudson.model.Run.Replay:stevenh</permission>
+    <permission>hudson.model.Run.Update:jcain</permission>
+    <permission>hudson.model.Run.Update:stevenh</permission>
+    <permission>hudson.model.View.Configure:jcain</permission>
+    <permission>hudson.model.View.Configure:stevenh</permission>
+    <permission>hudson.model.View.Create:jcain</permission>
+    <permission>hudson.model.View.Create:stevenh</permission>
+    <permission>hudson.model.View.Delete:jcain</permission>
+    <permission>hudson.model.View.Delete:stevenh</permission>
+    <permission>hudson.model.View.Read:jcain</permission>
+    <permission>hudson.model.View.Read:stevenh</permission>
+    <permission>hudson.scm.SCM.Tag:jcain</permission>
+    <permission>hudson.scm.SCM.Tag:stevenh</permission>
+    <permission>jenkins.metrics.api.Metrics.HealthCheck:jcain</permission>
+    <permission>jenkins.metrics.api.Metrics.HealthCheck:stevenh</permission>
+    <permission>jenkins.metrics.api.Metrics.ThreadDump:jcain</permission>
+    <permission>jenkins.metrics.api.Metrics.ThreadDump:stevenh</permission>
+    <permission>jenkins.metrics.api.Metrics.View:jcain</permission>
+    <permission>jenkins.metrics.api.Metrics.View:stevenh</permission>
+    <permission>org.jfrog.hudson.ArtifactoryPlugin.Promote:jcain</permission>
+    <permission>org.jfrog.hudson.ArtifactoryPlugin.Promote:stevenh</permission>
+    <permission>org.jfrog.hudson.ArtifactoryPlugin.PushToBintray:jcain</permission>
+    <permission>org.jfrog.hudson.ArtifactoryPlugin.PushToBintray:stevenh</permission>
+    <permission>org.jfrog.hudson.ArtifactoryPlugin.Release:jcain</permission>
+    <permission>org.jfrog.hudson.ArtifactoryPlugin.Release:stevenh</permission>
+  </authorizationStrategy>
+  <securityRealm class="hudson.security.HudsonPrivateSecurityRealm">
+    <disableSignup>false</disableSignup>
+    <enableCaptcha>false</enableCaptcha>
+  </securityRealm>
+  <disableRememberMe>false</disableRememberMe>
+  <projectNamingStrategy class="jenkins.model.ProjectNamingStrategy$DefaultProjectNamingStrategy"/>
+  <workspaceDir>${JENKINS_HOME}/workspace/${ITEM_FULLNAME}</workspaceDir>
+  <buildsDir>${ITEM_ROOTDIR}/builds</buildsDir>
+  <markupFormatter class="hudson.markup.EscapedMarkupFormatter"/>
+  <jdks/>
+  <viewsTabBar class="hudson.views.DefaultViewsTabBar"/>
+  <myViewsTabBar class="hudson.views.DefaultMyViewsTabBar"/>
+  <clouds/>
+  <quietPeriod>5</quietPeriod>
+  <scmCheckoutRetryCount>0</scmCheckoutRetryCount>
+  <views>
+    <hudson.model.AllView>
+      <owner class="hudson" reference="../../.."/>
+      <name>all</name>
+      <filterExecutors>false</filterExecutors>
+      <filterQueue>false</filterQueue>
+      <properties class="hudson.model.View$PropertyList"/>
+    </hudson.model.AllView>
+  </views>
+  <primaryView>all</primaryView>
+  <slaveAgentPort>-1</slaveAgentPort>
+  <disabledAgentProtocols>
+    <string>JNLP-connect</string>
+    <string>JNLP2-connect</string>
+  </disabledAgentProtocols>
+  <label></label>
+  <crumbIssuer class="hudson.security.csrf.DefaultCrumbIssuer">
+    <excludeClientIPFromCrumb>false</excludeClientIPFromCrumb>
+  </crumbIssuer>
+  <nodeProperties/>
+  <globalNodeProperties/>
+</hudson>
